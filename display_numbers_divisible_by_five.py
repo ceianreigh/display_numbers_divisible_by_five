@@ -3,6 +3,7 @@
 # pseudocode
 
 # create the given list of numbers
+numbers = [10, 20, 33, 46, 55]
 
 # iterate the list of numbers
 
