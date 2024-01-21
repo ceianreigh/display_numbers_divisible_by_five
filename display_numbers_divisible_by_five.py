@@ -10,7 +10,8 @@ print("Given list of numbers: ", numbers)
 print("Numbers divisible by 5:")
 
 # iterate the list of numbers
-
-# check if the number is divisible by 5
-
-# if yes, print the number
+for number in numbers:
+    # check if the number is divisible by 5
+    if number % 5 == 0:
+        # if yes, print the number
+        print(number)
